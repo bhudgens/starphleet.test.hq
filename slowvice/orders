@@ -1,4 +1,4 @@
 export STARTUP_WAIT=30
 export HEALTHCHECK=/diag
-export HEALTHCHECK_TIMEOUT=45
+export HEALTHCHECK_TIMEOUT=5
 autodeploy https://github.com/igroff/starphleet-test.git
