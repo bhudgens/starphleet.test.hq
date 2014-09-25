@@ -1,1 +1,2 @@
+STARTUP_WAIT=30
 autodeploy https://github.com/igroff/starphleet-test.git
