@@ -1,0 +1,12 @@
+export ES_MIN_MEM=8g
+export ES_MAX_MEM=8g
+export ES_DATA_DIR=/var/data/cerca
+
+export ES_CLUSTER=cerca-starphleet-elastic
+export ES_NODE=`hostname`-elastic
+
+# use wballard after pull request
+export BUILDPACK_URL=https://github.com/jloiola/elasticsearch_buildpack.git
+
+autodeploy git@github.com:glg/cerca.git#starphleet
+stop_before_autodeploy
