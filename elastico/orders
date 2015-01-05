@@ -1,2 +1,0 @@
-export PORT=8080
-autodeploy git@github.com:glg/starphleet.elastico.git
