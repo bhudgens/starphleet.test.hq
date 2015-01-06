@@ -1,4 +1,0 @@
-#! /usr/bin/env bash
-
-/usr/share/elasticsearch/bin/plugin -install royrusso/elasticsearch-HQ
-/usr/share/elasticsearch/bin/plugin -install karmi/elasticsearch-paramedic
