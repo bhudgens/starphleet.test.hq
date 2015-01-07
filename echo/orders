@@ -11,5 +11,5 @@ export PORT=3000
 
 #this is an autodeployed service, starphleet will watch this git repository
 #and if it sees and changes to a rolling, no-interruption deployment
-BUILDPACK_URL=https://github.com/jeffoconnell/heroku-buildpack-nodejs.git
+export BUILDPACK_URL=https://github.com/jeffoconnell/heroku-buildpack-nodejs.git
 autodeploy https://github.com/wballard/echo.git
