@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 echo '******* Starting on_containerize'
 source /usr/bin/tools
+APP_IN=$1
 if [ dev_mode ]; then
   # so, if were in dev mode we apparently need to do some cleanup 
   # for our build pack to run.  This may need to be done elsewhere, but since
