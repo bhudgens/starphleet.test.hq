@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+echo '******* Starting on_containerize'
+pwd
+echo '******* Ending on_containerize'
+
