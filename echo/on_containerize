@@ -8,7 +8,7 @@ if [ dev_mode ]; then
   # based on dev_mode
   if [ -z "${APP_IN}"] ; then
     error "no value for APP_IN something is not going to work"
-  elif
+  else
     set -x
     rm -rf ${APP_IN}/.heroku
     set +x
