@@ -6,7 +6,7 @@ if [ dev_mode ]; then
   # for our build pack to run.  This may need to be done elsewhere, but since
   # I'm not convinced it's cool to run all the time, we'll do it conditionally
   # based on dev_mode
-  if [ -z "${APP_IN}"] ; then
+  if [ -z "${APP_IN}" ] ; then
     error "no value for APP_IN something is not going to work"
   else
     set -x
@@ -14,6 +14,5 @@ if [ dev_mode ]; then
     set +x
   fi
 fi
-pwd
 echo '******* Ending on_containerize'
 
