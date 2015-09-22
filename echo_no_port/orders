@@ -1,2 +1,3 @@
 enable_cache_endpoint
+log_to_stderr
 autodeploy https://github.com/igroff/echo.git#master
