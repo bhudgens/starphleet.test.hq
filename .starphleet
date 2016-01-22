@@ -1,1 +1,4 @@
 #This will be sourced in every starphleet job, so put 'global' things here
+export JWT_SECRET=SecretsAreBad
+export JWT_AUTH_SITE=/auth
+export JWT_COOKIE_DOMAIN=ship.local
