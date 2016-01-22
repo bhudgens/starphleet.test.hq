@@ -1,0 +1,9 @@
+
+export PORT=8090
+export SMTP_HOST='localship'
+export SMTP_PORT=25
+
+export HEALTHCHECK='/healthy'
+export LOCAL_EPIQUERY='http://ship.glgresearch.com/epistream/'
+
+autodeploy git@github.com:glg/glg-jwt-auth.git
