@@ -2,5 +2,5 @@ export STARTUP_WAIT=30
 export HEALTHCHECK=/diag
 export HEALTHCHECK_TIMEOUT=45
 
-nginx_location_configs proxy_request_timeout 10m;
+nginx_location_configs proxy_request_timeout 10m\;
 autodeploy https://github.com/igroff/starphleet-test.git
