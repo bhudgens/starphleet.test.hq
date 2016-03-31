@@ -1,0 +1,6 @@
+export PORT=8090
+
+export HEALTHCHECK='/healthy'
+export JWT_SECRET=pants
+
+autodeploy git@github.com:glg/jwt-generator.git#no_depends
