@@ -3,7 +3,7 @@ enable_cache_endpoint
 log_to_stderr
 export SECURITY_MODE=jwt
 export JWT_ROLES=user_role
-exoprt JWT_SECRET=jeans
+export JWT_SECRET=jeans
 add_header pants 'are awesome'
 add_header pants2 are more awesome
 autodeploy https://github.com/igroff/echo.git#master
