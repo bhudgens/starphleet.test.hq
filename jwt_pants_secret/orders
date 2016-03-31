@@ -4,6 +4,7 @@ log_to_stderr
 export SECURITY_MODE=jwt
 export JWT_ROLES=user_role
 export JWT_SECRET=pants
+export JWT_AUTH_SITE=http://ship.glgresearch.com/auth_pants_secret
 add_header pants 'are awesome'
 add_header pants2 are more awesome
 autodeploy https://github.com/igroff/echo.git#master
