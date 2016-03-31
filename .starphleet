@@ -1,5 +1,5 @@
 #This will be sourced in every starphleet job, so put 'global' things here
 export SECURITY_MODE=public
 export JWT_SECRET=SecretsAreBad
-export JWT_AUTH_SITE=http://alocalship/auth
-export JWT_COOKIE_DOMAIN=ship.local
+export JWT_AUTH_SITE=http://ship.glgresearch.com/auth
+export JWT_COOKIE_DOMAIN=ship.glgresearch.com
