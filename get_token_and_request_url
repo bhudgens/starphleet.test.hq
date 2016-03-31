@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
-ROLE=${2?need a role}
-REQUEST_PATH=${1?Provide a path}
-TOKEN=$(curl -s "http://ship/generator_jeans_secret/?role=${ROLE}" | jq --raw-output .jwt)
+GENERATOR_PATH=${1?Provide a path to a generator}
+REQUEST_PATH=${2?Provide a path to request}
+ROLE=${3?Provide a role}
+TOKEN=$(curl -s "http://ship/${GENERATOR_PATH}/?role=${ROLE}" | jq --raw-output .jwt)
 curl -s -v "http://ship/${REQUEST_PATH}/pants?jwt=${TOKEN}"
