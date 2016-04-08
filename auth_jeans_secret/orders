@@ -2,6 +2,7 @@ export SECURITY_MODE=public
 log_to_stderr
 export HEALTHCHECK='/healthy'
 export JWT_SECRET=jeans
+export JWT_ROLE=user_role
 export DEFAULT_REDIRECT=/jwt_jeans_secret
 
 autodeploy https://github.com/igroff/glg-jwt-auth.git
